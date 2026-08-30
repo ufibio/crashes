@@ -3,4 +3,12 @@
 Спавним машину, едем, в неё стреляет другой игрок и сервер падает
 Пиздец.
 Причина: STACK:1: 'models/fast_and_furious/350zdk.mdl'. (https://github.com/wgetJane/gmod-clientside-hitreg)
+
+#0  [C]:-1  global CreatePhysCollidesFromModel
+#1  addons/![core]main/lua/other/marghitreg/sv_marghitreg.lua:1170  upvalue newpc
+#2  addons/![core]main/lua/other/marghitreg/sv_marghitreg.lua:1189  field GetPhysCollides
+#3  addons/![core]main/lua/other/marghitreg/sv_marghitreg.lua:258  upvalue validate
+#4  addons/![core]main/lua/other/marghitreg/sv_marghitreg.lua:1134   Lua
+#5  lua/includes/modules/hook.lua:310   Lua
+
 Аддон: https://steamcommunity.com/sharedfiles/filedetails/?id=1768081724
