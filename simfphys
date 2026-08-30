@@ -2,5 +2,5 @@
 Краш сервера симфиз машиной
 Спавним машину, едем, в неё стреляет другой игрок и сервер падает
 Пиздец.
-Причина: STACK:1: 'models/fast_and_furious/350zdk.mdl'.
+Причина: STACK:1: 'models/fast_and_furious/350zdk.mdl'. (https://github.com/wgetJane/gmod-clientside-hitreg)
 Аддон: https://steamcommunity.com/sharedfiles/filedetails/?id=1768081724
