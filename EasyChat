@@ -1,0 +1,3 @@
+Проблема: [EasyChat] SQL error: database disk image is malformed  Query: DELETE FROM ec_history WHERE channel_id = 1 AND id NOT IN (
+      SELECT id FROM ec_history WHERE channel_id = 1 ORDER BY id DESC LIMIT 200
+Решение: Удалить файл cl.db по этому пути -> \SteamLibrary\steamapps\common\GarrysMod\garrysmod
